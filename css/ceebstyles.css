@@ -1,0 +1,618 @@
+ *{ 
+		margin: 0; padding: 0;
+	}
+	
+ body {
+		background-color: #F7F5FF;
+
+	}
+
+ .block1 {
+
+		 position: absolute;
+		 top: 15px;
+		 left: 130px;
+		 right: 130px;
+		 height: 90px;
+		 background-color: white;
+		 border-radius: 15px;
+	 }
+	 
+ .title {
+		 position: absolute;
+		 right: 50px;
+		 top: 25px;
+	 }
+	 
+ .text {
+		color: black;
+		font-size: 18px;
+		font-family: Impact;
+	 }
+	 
+ .title2 {
+		 margin-left: 8vw;
+		 display: inline-block;
+		 border-bottom: solid 2px white;
+		 transition: 0.5s;
+	 }
+	 
+ .title2:hover{
+		 border-bottom: solid 2px black;
+	 }
+ 
+ #лк {
+	 text-decoration: none;
+	 color: #CDCDCD;
+	 font-size: 25px;
+	 text-shadow: 1px 1px 2px black;
+ }
+ 
+ .block2 {
+	 position: absolute;
+	 left: 620px;
+	 top: 150px;
+	 width: 500px;
+ }
+ 
+ .block3 {
+	 position: absolute;
+	 left: 130px;
+	 top: 200px;
+ }
+ 
+ h1{
+	 font-size: 70px;
+	 font-family: Impact;
+ }
+ 
+ .servername{
+	 color: #858196;
+ }
+ 
+ .ip{
+	 color: #D3C931;
+	 font-family: Impact;
+	 font-size: 30px;
+	 text-shadow: 1px 1px 0.5px black;
+ }
+ 
+ .версия{
+	 color: #858196;
+	 font-family: Times New Roman;
+	 font-size: 20px;
+ }
+ 
+ .заголовок_соглашение {
+	color: black;
+	font-family: Impact; 
+	font-size: 35px;
+	line-height: 150px;
+}
+ 
+ .shop{
+	position: absolute;
+	left: 160px;
+    top: 550px;
+	width: 230px;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	border: 4px solid #AFAFAF;
+	padding:16px;
+	box-shadow: 3px 3px 20px black;
+	color: black;
+	font-size: 20px;
+	font-family: Impact;
+	transition: 0.5s;
+ }
+ 
+ .shop:hover{
+	color: #23ADDC;
+	
+	transform: scale(1.15);
+ }
+ 
+ .block5 {
+	 position: absolute;
+	 top: 130px;
+	 left: 150px;
+	 right: 67%;
+	 height: 500px;
+ }
+ 
+ .правила{
+	color: black;
+	padding:30px;
+	font-size: 25px;
+	width: 250px;
+	font-family: Impact;  
+	text-align: center;
+	display: block;
+ }
+ 
+ .заголовок_книга {
+	 position: absolute;
+	 top: 40px;
+	 left: 10px;
+ }
+ 
+ .заголовок_правила {
+	 color: black;
+	 font-family: Impact; 
+	 font-size: 35px;
+	 top: 35px;
+	 position: absolute;
+	 left: 50px;
+ }
+ 
+ #btn1{
+	 position: absolute;
+	 left: 15px;
+	 top: 120px; 
+ }
+ 
+ #btn2{
+	 position: absolute;
+	 left: 15px;
+	 top: 260px;
+ }
+ 
+ #btn3{
+	 position: absolute;
+	 left: 15px;
+	 top: 400px;
+ }
+ 
+ #btn1:hover{
+	 color:white;
+	 background-color: black;
+ }
+
+#btn1:focus{
+	 color:white;
+	 background-color: black;
+ }
+ 
+ #btn2:hover{
+	 color:white;
+	 background-color: black;
+ }
+ 
+ #btn2:focus{
+	 color:white;
+	 background-color: black;
+ }
+ 
+ #btn3:hover{
+	 color:white;
+	 background-color: black;
+ }
+ 
+ #btn3:focus{
+	 color:white;
+	 background-color: black;
+ }
+ 
+ .sved {
+	 position: absolute;
+	 top: 180px;
+	 left: 550px;
+	 right: 150px;
+	 height: 600px;
+	 border-radius: 15px;
+ }
+ 
+ .сведения{
+	  font-family: Times New Roman; 
+	  font-size: 18px;
+	  position: absolute;
+	  text-align: left;
+	  color: #8D8B98;
+	  display: none;
+ }
+
+ .сведения2{
+	font-family: Times New Roman; 
+	font-size: 18px;
+	position: absolute;
+	text-align: left;
+	color: #8D8B98;
+}
+ .сведения2{
+	font-family: Times New Roman; 
+	font-size: 18px;
+	position: absolute;
+	text-align: left;
+	color: #8D8B98;
+}
+
+ 
+ .надпись_магазин {
+	 position: absolute;
+	 top: 130px;
+	 left:45%;
+	 font-family: Impact; 
+	 font-size: 40px;
+ }
+ 
+ .иконка_магазин {
+	 position: absolute;
+	 top: 134px;
+	 left:42.5%;
+	 font-family: Impact; 
+	 font-size: 40px;
+ }
+ 
+ .block8 {
+	 position: absolute;
+	 left:900px;
+	 top: 180px;
+ }
+ 
+ #бд{
+	 font-size:50px;
+	 position:absolute;
+	 
+ }
+ .reg {
+	background-color: #F7F5FF;
+ }
+ .вход {
+	 margin-top: 70px;
+	 margin-left: 35%; /* Отступ слева */
+     margin-right: 35%; /* Отступ справа */
+	 text-align: center;
+	 box-shadow: 1px 4px 12px black;
+	 background-color: #F7F5FF;
+	 padding: 20px;
+	 border-radius: 20px;
+ }
+ 
+ #вх{
+	 font-family: Impact; 
+	 padding: 30px;
+ }
+ 
+ #login{
+	 width: 200px;
+	 padding: 10px;
+	 margin: 15px;
+	 border-color: #212320;
+	 border-radius: 10px;
+ }
+ 
+ #password{
+	 width: 200px;
+	 padding: 10px;
+	 margin: 15px;
+	 border-color: #212320;
+	 border-radius: 10px;
+ }
+ 
+ #enter{
+	 padding: 20px;
+	 margin: 15px;
+	 width: 230px;
+	 box-shadow: 1px 4px 5px black;
+	 background-color: #CACACA;
+	 border-color: black;
+	 font-weight: 700;
+	 font-size: 18px;
+	 border-radius: 10px;
+	 transition: 0.2s;
+ }
+ 
+  #enter:hover{
+	  transform: scale(1.15);
+ } 
+ 
+  #line{
+	 opacity: 0.6;
+ }	 
+ 
+ #btn_home{
+	 font-size: 17px;
+	 border: none;
+	 background-color: #F7F5FF;
+	 transition: 0.5s;
+ }
+ #btn_home:hover{
+	font-size: 18px;
+	
+ }
+ 
+ #a_home{
+	 text-decoration: none;
+	 color: black;
+	
+ }
+ #a_home:hover{
+	 text-decoration: none;
+	 color: #8D8B98;
+ }
+
+ .agreement {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	text-align: center;
+	width: 70%; 
+	
+ }
+ 
+ .block9 {
+	 position: absolute;
+	 left: 130px;
+	 top:100px;
+	 width:700px;
+	 height:150px;
+	 text-align: center;
+	 margin-bottom: 50px;
+ }
+
+ .show{
+	display:block;
+ }
+
+ #shop{
+	margin-left: 7vw;
+	transition: 0.5s;
+ }
+
+ .string_product{
+	 font-family: Impact; 
+	 font-size: 25px;
+	 padding: 50px;
+ }
+
+ .block10{
+	padding: 15px;
+	width: 400px;
+	background-color: yellow;
+	border-radius: 15px;
+	text-align: center;
+	transition: 0.5s;
+	
+ }
+
+ .block10:hover{
+	background-color: #5DCDCF;
+	color: white;
+ }
+
+ .string_time{
+	font-size: 15px;
+}
+
+.btn_buy{
+	 padding: 15px;
+	 text-align: center;
+	 width: 160px;
+	 box-shadow: 1px 4px 5px black;
+	 background-color: #8D8B98;
+	 border-color: black;
+	 font-weight: 700;
+	 font-size: 18px;
+	 border-radius: 10px;
+	 transition: 0.5s;
+}
+
+.btn_buy:hover{
+	transform: scale(1.10);
+}
+
+
+
+
+.block_price {
+	position: absolute;
+	left: 1400px;
+	top: 20px;
+}
+
+.successful_login{
+	padding: 15px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #F1EFF9;
+	border-radius: 15px;
+	text-align: center;
+	height: 800px;
+	width: 600px;
+	position: center;
+}
+
+.block7{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 683px;
+	margin-top: 10px;
+	
+}
+ .items{
+	 margin: 10px;
+	 padding: 10px;
+	 width: 200px;
+	 border-radius: 10px;
+	 font-family: Impact; 
+	 font-size: 20px;
+	 
+ }
+
+ .buy_img{
+	width: 350px;
+	
+}
+
+.li_items{
+	display: flex;
+	list-style-type: none;
+	padding: 10px;
+	border-radius: 10px;
+	background: #CDCDCD;
+	margin-bottom: 60px;
+	box-shadow: 1px 1px 30px 3px black;
+	transition: 0.5s;
+}
+
+.li_items:hover{
+	transform: scale(1.05);
+ }
+
+ .content{
+	 width: 300px;
+	 text-align: center;
+	 margin:auto;
+ }
+
+ .voiti{
+	text-decoration: none;
+ }
+
+.wrapper{
+	
+	background-color:  yellow;
+}
+
+ .footer {
+	padding: 10px;
+	background: black;
+	color: white;
+  }
+
+  #ft_shop{
+	margin-top: 130%;
+  }
+
+  #ft_index{
+	margin-top: 45.7%;
+  }
+
+  #ft_rules{
+	margin-top: 56%;
+  }
+  
+  #ft_agreement{
+	margin-top: 60%;
+  }
+
+  .ft{
+	text-align: center;
+  }
+
+  .footer1 {
+	margin-left: 4vw;
+	margin-right: 4vw;
+	display: inline-block;
+}
+
+.соглашение{
+	text-decoration: none;
+	color: white;
+	border-bottom: solid 2px white;
+}
+
+.basket{
+	 margin: 10px;
+	 padding: 10px;
+	 width: 200px;
+	 border-radius: 10px;
+	 font-family: Impact; 
+	 font-size: 20px;
+	 transition: 0.5s;
+	 cursor: pointer;
+}
+
+.basket:hover{
+	color: #11225B;
+}
+
+.basket_text{
+	position: relative;
+	bottom:5px;
+}
+
+.dropbtn {
+	width: 150px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100px;
+left: 1100px;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.show2{
+	display:block;
+}
+
+.buy_products{
+	width: 650px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 50px;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #CDCDCD;
+}
+
+.need_login{
+	width: 450px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #CDCDCD;
+}
+
+.nd2{
+margin-top: 15px;
+list-style-type: none;
+}
+
+.close{
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	cursor: pointer;
+}
+
+
+.buy_title{
+	font-size: 30px;
+	font-family: Impact;
+}
+
+.content_confirmation{
+	border-style: inset;
+	margin: 15px 10px 0 10px;
+	width: 600px;
+	display: flex;
+	padding: 15px;
+}
+
+.xyz{
+	font-size: 20px;
+	font-family: Impact;
+}
